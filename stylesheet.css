@@ -503,6 +503,29 @@ section {
     text-anchor: middle;
 }
 
+.contact-content {
+    text-align: center;
+}
+
+.contact-content h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.contact-details a {
+    color: #00eeff;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
 
 
 @keyframes slideRight {

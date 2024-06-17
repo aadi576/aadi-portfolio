@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,21 +20,21 @@
         <a href="#" class="logo">Portfolio</a>
 
         <nav class="navbar">
-            <a href="#" style="--i:1" class="active">Home</a>
-            <a href="#" style="--i:2">About</a>
-            <a href="#" style="--i:3">Skill</a>
-            <a href="#" style="--i:4">Portfolio</a>
-            <a href="#" style="--i:5">Contact</a>
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skill</a>
+            <a href="#projects" style="--i:4">Portfolio</a>
+            <a href="#contact" style="--i:5">Contact</a>
         </nav>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Aditya</h1>
             <h3>And I'm a <span class="element"></span></h3>
 
-            <p>I am a recent graduate with a degree in Computer Science from [Chandigarh University]
+            <p>I am a recent graduate with a degree in Computer Science from Chandigarh University
                 <br>equipped with strong programming skills in Java, Python, and JavaScript. I have hands-on experience
                 in developing Websites design, frontend design, and many more...
             </p>
@@ -71,10 +76,7 @@
         </div>
     </section>
 
-
-
-
-    <section class="skills">
+    <section class="skills" id="skills">
         <h1 class="sub-title">My <span>Skills</span></h1>
         <div class="container1" id="Skill">
             <h1 class="heading1">Technical Skills</h1>
@@ -180,7 +182,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="projects" id="projects">
         <div class="Projects" id="Projects">
             <div class="container">
                 <h1 class="sub-title">My <span>Projects</span></h1>
@@ -216,6 +218,17 @@
                         <a href="#" class="read">Learn more</a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <h1 class="sub-title">Contact <span>Details</span></h1>
+            <div class="contact-details">
+                <p>Phone no :7878616708</p>
+                <p>GitHub: <a href="https://github.com/aadi576" target="_blank">github.com/aadi576</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/aditya-kumar-b60aa4217/" target="_blank">Aditya Kumar</a></p>
             </div>
         </div>
     </section>
